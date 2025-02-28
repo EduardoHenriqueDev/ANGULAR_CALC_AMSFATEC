@@ -27,6 +27,7 @@ Clone o repositório para sua máquina local usando o Git:
 
 ```bash
 git clone https://github.com/EduardoHenriqueDev/ANGULAR_CALC_AMSFATEC.git
+```
 
 ### Passo 2: Navegar até o diretório do projeto
 
@@ -34,6 +35,7 @@ No terminal, navegue até o diretório do projeto clonado:
 
 ```bash
 cd ANGULAR_CALC_AMSFATEC
+```
 
 ### Passo 3: Instalar as dependências
 
@@ -41,6 +43,7 @@ No diretório do projeto, execute o seguinte comando para instalar as dependênc
 
 ```bash
 npm install
+```
 
 ### Passo 4: Iniciar o servidor de desenvolvimento
 
@@ -48,5 +51,6 @@ Após a instalação das dependências, inicie o servidor de desenvolvimento loc
 
 ```bash
 ng s -o
+```
 
 Isso iniciará a aplicação no http://localhost:4200/.
