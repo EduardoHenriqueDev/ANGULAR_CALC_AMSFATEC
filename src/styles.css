@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+
+/* Garantindo que o body ocupe 100% da altura da tela */
+html {
+    height: 100%;
+    /* Garantindo que o body ocupe toda a altura */
+    display: flex;
+    /* Usando flexbox */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    /* Fundo com gradiente */
+    margin: 0;
+    /* Removendo margens padrão */
+}

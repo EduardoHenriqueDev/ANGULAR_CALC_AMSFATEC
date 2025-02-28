@@ -1,20 +1,13 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration, withEventReplay } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms'; // Importando FormsModule
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-
+// Note que não é mais necessário declarar AppComponent aqui.
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule
   ],
-  providers: [
-    provideClientHydration(withEventReplay())
-  ],
-  bootstrap: [AppComponent]
+  providers: []
 })
 export class AppModule { }

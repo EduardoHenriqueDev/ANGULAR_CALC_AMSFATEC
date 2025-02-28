@@ -1,59 +1,60 @@
-# Calc
+Calculadora em Angular
+Este projeto é uma calculadora desenvolvida em Angular, como parte da tarefa da disciplina Técnicas Avançadas de Programação Web e Mobile da Fatec de Itu, no curso de Análise e Desenvolvimento de Sistemas AMS. A calculadora inclui as seguintes operações matemáticas:
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+Soma
+Subtração
+Multiplicação
+Divisão
+Potência
+Média
+Foi desenvolvida com o objetivo de aplicar conceitos de Angular, como two-way data binding (com ngModel), manipulação de eventos e estilização de componentes.
 
-## Development server
+Funcionalidades
+O usuário pode inserir dois números e escolher uma operação.
+O resultado é exibido abaixo dos campos de entrada.
+A interface é responsiva e foi projetada para ser simples e intuitiva.
+Como instalar e rodar o projeto
+Pré-requisitos
+Certifique-se de que você tem o Node.js e o Angular CLI instalados. Caso não tenha, siga as instruções abaixo:
 
-To start a local development server, run:
+Instalar o Node.js: Acesse nodejs.org e faça o download da versão recomendada.
 
-```bash
+Instalar o Angular CLI: Execute o seguinte comando no terminal:
+
+bash
+Copiar
+Editar
+npm install -g @angular/cli
+Passos para instalação
+Clone o repositório do projeto:
+
+bash
+Copiar
+Editar
+git clone <URL-do-repositório>
+Navegue até o diretório do projeto:
+
+bash
+Copiar
+Editar
+cd nome-do-diretorio
+Instale as dependências do projeto:
+
+bash
+Copiar
+Editar
+npm install
+Rodando o projeto
+Para iniciar o servidor de desenvolvimento e visualizar a calculadora, execute:
+
+bash
+Copiar
+Editar
 ng serve
-```
+Após rodar o comando, abra o seu navegador e acesse o seguinte endereço:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+arduino
+Copiar
+Editar
+http://localhost:4200/
+O aplicativo será automaticamente recarregado sempre que você modificar os arquivos de código-fonte.
