@@ -9,7 +9,7 @@ Este projeto é uma **calculadora em Angular**, desenvolvida como tarefa para a 
 - **Multiplicação**: Multiplica dois números.
 - **Divisão**: Divide o primeiro número pelo segundo.
 - **Potência**: Calcula a potência de um número (base e expoente).
-- **Raiz quadrada**: Calcula a raiz quadrada de um número.
+-  **Média**: Calcula a média entre dois números.
 
 ## Como instalar e executar o projeto
 
