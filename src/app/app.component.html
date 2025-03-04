@@ -1,6 +1,6 @@
 <div class="container">
   <div class="card">
-    <h1>Calculadora</h1>
+    <h1>Calculadora:</h1>
 
     <div class="input-container">
       <input type="number" [(ngModel)]="numero1" placeholder="Digite um número">
@@ -9,16 +9,28 @@
 
     <div class="buttons">
       <div class="row">
-        <button (click)="somar()">Somar</button>
-        <button (click)="subtrair()">Subtrair</button>
+        <button (click)="somar()" matTooltip="Somar" matTooltipPosition="above" style="margin-right: 20px;">
+          <mat-icon>add</mat-icon>
+        </button>
+        <button (click)="subtrair()" matTooltip="Subtrair" matTooltipPosition="above">
+          <mat-icon>remove</mat-icon>
+        </button>
       </div>
       <div class="row">
-        <button (click)="multiplicar()">Multiplicar</button>
-        <button (click)="dividir()">Dividir</button>
+        <button (click)="multiplicar()" matTooltip="Multiplicar" matTooltipPosition="above" style="margin-right: 20px;">
+          <mat-icon>close</mat-icon>
+        </button>
+        <button (click)="dividir()" matTooltip="Dividir" matTooltipPosition="above">
+          <span>/</span>
+        </button>
       </div>
       <div class="row">
-        <button (click)="potencia()">Potência</button>
-        <button (click)="media()">Média</button>
+        <button (click)="potencia()" matTooltip="Potência" matTooltipPosition="above" style="margin-right: 20px;">
+          <mat-icon>superscript</mat-icon>
+        </button>
+        <button (click)="media()" matTooltip="Média" matTooltipPosition="above">
+          <mat-icon>calculate</mat-icon>
+        </button>
       </div>
     </div>
 

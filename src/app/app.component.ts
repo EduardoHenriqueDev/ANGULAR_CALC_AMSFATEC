@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms'; 
+import { FormsModule } from '@angular/forms';
+import { MatIconModule } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, MatIconModule, MatTooltipModule],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
@@ -41,12 +43,5 @@ export class AppComponent {
 
   media(): void {
     this.resultado = (this.numero1 + this.numero2) / 2;
-  }
-
-  ativarBotao(event: any) {
-    const buttons = document.querySelectorAll('button');
-    buttons.forEach((button) => button.classList.remove('active'));
-
-    event.target.classList.add('active');
   }
 }

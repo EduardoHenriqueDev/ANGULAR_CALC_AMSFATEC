@@ -1,16 +1,27 @@
-
-/* Garantindo que o body ocupe 100% da altura da tela */
 html {
     height: 100%;
-    /* Garantindo que o body ocupe toda a altura */
     display: flex;
-    /* Usando flexbox */
     justify-content: center;
-    /* Centraliza horizontalmente */
     align-items: center;
-    /* Centraliza verticalmente */
     background: linear-gradient(135deg, #6a11cb, #2575fc);
-    /* Fundo com gradiente */
     margin: 0;
-    /* Removendo margens padrão */
+}
+
+body {
+    background-color: transparent !important;
+}
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+mat-icon {
+    font-family: 'Material Icons' !important;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
 }

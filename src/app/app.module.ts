@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms'; // Importando FormsModule
+import { FormsModule } from '@angular/forms';
+import { MatIconModule } from '@angular/material/icon';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
-// Note que não é mais necessário declarar AppComponent aqui.
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    MatIconModule,
+    MatTooltipModule
   ],
   providers: []
 })
